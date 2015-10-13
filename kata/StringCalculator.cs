@@ -1,10 +1,16 @@
-﻿namespace kata
+﻿using System.Text.RegularExpressions;
+
+namespace kata
 {
     public class StringCalculator
     {
         public int Add(string numbers)
         {
-            throw new System.NotImplementedException();
+            if (string.IsNullOrEmpty(numbers))
+                return 0;
+
+            return 1;
         }
+
     }
 }
