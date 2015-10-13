@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="when_adding_an_empty_string.cs" />
+    <Compile Include="when_adding_one_and_four.cs" />
     <Compile Include="when_recibing_one_number.cs" />
     <Compile Include="when_recieving_different_number.cs" />
     <Compile Include="when_running_a_test.cs" />
